@@ -7,7 +7,7 @@ CD pipeline for Ansible: install requirements → run playbook → verify status
 - Owner: `pipery-dev`
 - Repository: `pipery-ansible-cd`
 - Marketplace category: `continuous-integration`
-- Current version: `1.0.1`
+- Current version: `1.0.2`
 
 ## Usage
 

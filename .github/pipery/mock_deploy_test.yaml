@@ -1,0 +1,25 @@
+name: mocked-deploy
+description: Validate Ansible CD setup, deploy, and status steps with local command mocks.
+source_path: test-project
+inputs:
+  project_path: test-project
+  playbook: playbook.yml
+  inventory: inventory
+  ansible_requirements: requirements.yml
+  extra_vars: deploy_env=ci image_tag=scenario
+  tags: smoke
+  skip_requirements: "false"
+  skip_deploy: "false"
+  skip_status_check: "false"
+expect:
+  log_path: pipery.jsonl
+  success_values: [success, passed, ok, succeeded]
+  required_fields:
+    - name: event
+      value: ansible_setup
+    - name: event
+      value: ansible_deploy
+    - name: event
+      value: ansible_status
+    - name: event
+      value: deploy

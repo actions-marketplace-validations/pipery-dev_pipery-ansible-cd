@@ -1,10 +1,10 @@
-# Release v1.0.2
+# Release v1.0.3
 
 Repository: `pipery-dev/pipery-ansible-cd`
 
 ## Deployment
 
-Reference this release as `pipery-dev/pipery-ansible-cd@v1.0.2`, `pipery-dev/pipery-ansible-cd@v1.0`, or `pipery-dev/pipery-ansible-cd@v1`.
+Reference this release as `pipery-dev/pipery-ansible-cd@v1.0.3`, `pipery-dev/pipery-ansible-cd@v1.0`, or `pipery-dev/pipery-ansible-cd@v1`.
 
 ## Changelog
 
@@ -13,6 +13,10 @@ Reference this release as `pipery-dev/pipery-ansible-cd@v1.0.2`, `pipery-dev/pip
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
+- _Nothing yet._
+
+## [1.0.3]
 
 - _Nothing yet._
 
